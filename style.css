@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <nav>Villa Sunset Bali</nav>
+
+<section class="hero">
+  <h1>Surga Tersembunyi di Bali</h1>
+  <p>Pengalaman menginap mewah dengan pemandangan sawah dan laut</p>
+  <button>Pesan Sekarang</button>
+</section>
+
+<section class="fasilitas">
+  <div class="kartu">
+    <h3>🏊 Kolam Renang</h3>
+    <p>Kolam renang infinity dengan pemandangan sawah</p>
+  </div>
+  <div class="kartu">
+    <h3>🍽️ Restoran</h3>
+    <p>Masakan Bali autentik dari bahan lokal segar</p>
+  </div>
+  <div class="kartu">
+    <h3>💆 Spa</h3>
+    <p>Perawatan tradisional Bali untuk relaksasi total</p>
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <h2>Pesan Kamar</h2>
+  <form>
+    <input type="text" placeholder="Nama Lengkap">
+    <input type="email" placeholder="Email">
+    <input type="date">
+    <input type="date">
+   <button type="submit" onclick="kirimPesanan()">Kirim Pesanan</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Villa Sunset Bali. All rights reserved.</p>
+</footer>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
